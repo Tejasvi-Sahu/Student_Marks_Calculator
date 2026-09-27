@@ -44,4 +44,10 @@ if percentage >= 40:
 else:
     print("Status       : FAIL")
 
+highest = max(maths, python, dsa, english, coa)
+lowest = min(maths, python, dsa, english, coa)
+
+print("Highest Marks:", highest)
+print("Lowest Marks :", lowest)
+
 print("================================")
